@@ -1,0 +1,410 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		DEA5C07719C6620400107775 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = DEA5C07619C6620400107775 /* AppDelegate.swift */; };
+		DEA5C07919C6620400107775 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DEA5C07819C6620400107775 /* ViewController.swift */; };
+		DEA5C07C19C6620400107775 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DEA5C07A19C6620400107775 /* Main.storyboard */; };
+		DEA5C07E19C6620400107775 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DEA5C07D19C6620400107775 /* Images.xcassets */; };
+		DEA5C08A19C6620400107775 /* FilmsterTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = DEA5C08919C6620400107775 /* FilmsterTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		DEA5C08419C6620400107775 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = DEA5C06919C6620400107775 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = DEA5C07019C6620400107775;
+			remoteInfo = Filmster;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		DEA5C07119C6620400107775 /* Filmster.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Filmster.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		DEA5C07519C6620400107775 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		DEA5C07619C6620400107775 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		DEA5C07819C6620400107775 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		DEA5C07B19C6620400107775 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		DEA5C07D19C6620400107775 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		DEA5C08319C6620400107775 /* FilmsterTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = FilmsterTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		DEA5C08819C6620400107775 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		DEA5C08919C6620400107775 /* FilmsterTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FilmsterTests.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		DEA5C06E19C6620400107775 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DEA5C08019C6620400107775 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		DEA5C06819C6620400107775 = {
+			isa = PBXGroup;
+			children = (
+				DEA5C07319C6620400107775 /* Filmster */,
+				DEA5C08619C6620400107775 /* FilmsterTests */,
+				DEA5C07219C6620400107775 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		DEA5C07219C6620400107775 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				DEA5C07119C6620400107775 /* Filmster.app */,
+				DEA5C08319C6620400107775 /* FilmsterTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		DEA5C07319C6620400107775 /* Filmster */ = {
+			isa = PBXGroup;
+			children = (
+				DEA5C07619C6620400107775 /* AppDelegate.swift */,
+				DEA5C07819C6620400107775 /* ViewController.swift */,
+				DEA5C07A19C6620400107775 /* Main.storyboard */,
+				DEA5C07D19C6620400107775 /* Images.xcassets */,
+				DEA5C07419C6620400107775 /* Supporting Files */,
+			);
+			path = Filmster;
+			sourceTree = "<group>";
+		};
+		DEA5C07419C6620400107775 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				DEA5C07519C6620400107775 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		DEA5C08619C6620400107775 /* FilmsterTests */ = {
+			isa = PBXGroup;
+			children = (
+				DEA5C08919C6620400107775 /* FilmsterTests.swift */,
+				DEA5C08719C6620400107775 /* Supporting Files */,
+			);
+			path = FilmsterTests;
+			sourceTree = "<group>";
+		};
+		DEA5C08719C6620400107775 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				DEA5C08819C6620400107775 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		DEA5C07019C6620400107775 /* Filmster */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DEA5C08D19C6620400107775 /* Build configuration list for PBXNativeTarget "Filmster" */;
+			buildPhases = (
+				DEA5C06D19C6620400107775 /* Sources */,
+				DEA5C06E19C6620400107775 /* Frameworks */,
+				DEA5C06F19C6620400107775 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Filmster;
+			productName = Filmster;
+			productReference = DEA5C07119C6620400107775 /* Filmster.app */;
+			productType = "com.apple.product-type.application";
+		};
+		DEA5C08219C6620400107775 /* FilmsterTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DEA5C09019C6620400107775 /* Build configuration list for PBXNativeTarget "FilmsterTests" */;
+			buildPhases = (
+				DEA5C07F19C6620400107775 /* Sources */,
+				DEA5C08019C6620400107775 /* Frameworks */,
+				DEA5C08119C6620400107775 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				DEA5C08519C6620400107775 /* PBXTargetDependency */,
+			);
+			name = FilmsterTests;
+			productName = FilmsterTests;
+			productReference = DEA5C08319C6620400107775 /* FilmsterTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		DEA5C06919C6620400107775 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0600;
+				ORGANIZATIONNAME = "Aditya Parikh";
+				TargetAttributes = {
+					DEA5C07019C6620400107775 = {
+						CreatedOnToolsVersion = 6.0;
+					};
+					DEA5C08219C6620400107775 = {
+						CreatedOnToolsVersion = 6.0;
+						TestTargetID = DEA5C07019C6620400107775;
+					};
+				};
+			};
+			buildConfigurationList = DEA5C06C19C6620400107775 /* Build configuration list for PBXProject "Filmster" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = DEA5C06819C6620400107775;
+			productRefGroup = DEA5C07219C6620400107775 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				DEA5C07019C6620400107775 /* Filmster */,
+				DEA5C08219C6620400107775 /* FilmsterTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		DEA5C06F19C6620400107775 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DEA5C07C19C6620400107775 /* Main.storyboard in Resources */,
+				DEA5C07E19C6620400107775 /* Images.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DEA5C08119C6620400107775 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		DEA5C06D19C6620400107775 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DEA5C07919C6620400107775 /* ViewController.swift in Sources */,
+				DEA5C07719C6620400107775 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DEA5C07F19C6620400107775 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DEA5C08A19C6620400107775 /* FilmsterTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		DEA5C08519C6620400107775 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = DEA5C07019C6620400107775 /* Filmster */;
+			targetProxy = DEA5C08419C6620400107775 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		DEA5C07A19C6620400107775 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				DEA5C07B19C6620400107775 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		DEA5C08B19C6620400107775 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		DEA5C08C19C6620400107775 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		DEA5C08E19C6620400107775 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				INFOPLIST_FILE = Filmster/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		DEA5C08F19C6620400107775 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				INFOPLIST_FILE = Filmster/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		DEA5C09119C6620400107775 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = FilmsterTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Filmster.app/Filmster";
+			};
+			name = Debug;
+		};
+		DEA5C09219C6620400107775 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = FilmsterTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Filmster.app/Filmster";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		DEA5C06C19C6620400107775 /* Build configuration list for PBXProject "Filmster" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DEA5C08B19C6620400107775 /* Debug */,
+				DEA5C08C19C6620400107775 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		DEA5C08D19C6620400107775 /* Build configuration list for PBXNativeTarget "Filmster" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DEA5C08E19C6620400107775 /* Debug */,
+				DEA5C08F19C6620400107775 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		DEA5C09019C6620400107775 /* Build configuration list for PBXNativeTarget "FilmsterTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DEA5C09119C6620400107775 /* Debug */,
+				DEA5C09219C6620400107775 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = DEA5C06919C6620400107775 /* Project object */;
+}
