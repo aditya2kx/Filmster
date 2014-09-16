@@ -12,4 +12,4 @@ Customize the highlight and selection effect of the cell. (optional)
 --> Add a tab bar for Box Office and DVD. (optional)
 --> Add a search bar. (optional)
 
-![alt tag] (https://github.com/aditya2kx/Filmster/blob/master/Tipster%20Recording.gif) 
+![alt tag] (https://github.com/aditya2kx/Filmster/blob/master/Filmster%20Recording.gif) 
