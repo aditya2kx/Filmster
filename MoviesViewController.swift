@@ -15,6 +15,7 @@ class MoviesViewController: UIViewController, UITableViewDelegate, UITableViewDa
     @IBOutlet weak var movieSearchBar: UISearchBar!
     var moviesDataDictionary = []
     var refreshControl : UIRefreshControl!
+    
     override func viewDidLoad() {
         super.viewDidLoad()
         refreshControl = UIRefreshControl()
@@ -60,7 +61,7 @@ class MoviesViewController: UIViewController, UITableViewDelegate, UITableViewDa
                 })
         }
     }
-    
+
     override func didReceiveMemoryWarning() {
         super.didReceiveMemoryWarning()
         // Dispose of any resources that can be recreated.
@@ -127,3 +128,5 @@ class MoviesViewController: UIViewController, UITableViewDelegate, UITableViewDa
         }
     }
 }
+
+
